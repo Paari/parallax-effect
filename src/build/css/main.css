@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quattrocento', serif;
+}
+.banner-heading {
+  font-size: 53px;
+  color: #1F2E5B;
+  letter-spacing: 0;
+  line-height: 80px;
+  text-shadow: 9px 14px 16px rgba(0, 0, 0, 0.19);
+  margin-top: 50%;
+}
+.main-menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 5;
+}
+.main-menu .menu-text {
+  display: none;
+}
+/*
+Main banner
+*/
+.main-banner {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  min-height: 600px;
+}
+.yolk-center {
+  margin-top: 15em;
+  margin-left: 25%;
+}
+.line-dotted {
+  margin-top: 5em;
+  margin-left: 20%;
+  animation: rotation 50s infinite linear;
+}
+.line-fill {
+  margin-top: -5em;
+  margin-left: 10%;
+}
+.scale-small {
+  transform: scale(0.6);
+}
+.scale-medium {
+  transform: scale(0.8);
+}
+.scale-large {
+  transform: scale(0.9);
+}
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
