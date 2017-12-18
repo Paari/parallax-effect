@@ -1,3 +1,5 @@
+@viewport__mobile: 767px;
+
 h1,
 h2,
 h3,
@@ -11,9 +13,16 @@ h6 {
     font-size: 53px;
     color: #1F2E5B;
     letter-spacing: 0;
-    line-height: 80px;
+    line-height: 1.7;
     text-shadow: 9px 14px 16px rgba(0,0,0,0.19);
     margin-top: 50%;
+    z-index: 10;
+    position: relative;
+
+    @media screen and (max-width: @viewport__mobile) {
+      font-size: 35px;
+      margin-top: 75%;
+    }
 }
 
 .main-menu {
@@ -48,11 +57,25 @@ Main banner
 .line-dotted {
   margin-top: 5em;
   margin-left: 20%;
-  animation: rotation 50s infinite linear;
+  animation: rotation 120s infinite linear;
+  
+  @media screen and (max-width: @viewport__mobile) {
+    opacity: .2;
+  }
 }
 .line-fill {
   margin-top: -5em;
   margin-left: 10%;
+  
+  @media screen and (max-width: @viewport__mobile) {
+    opacity: .2;
+  }
+
+}
+.menu-overlay {
+  @media screen and (max-width: @viewport__mobile) {
+    margin-top: -70px;
+  }
 }
 
 // scales

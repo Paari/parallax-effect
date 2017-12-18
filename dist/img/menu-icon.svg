@@ -4,17 +4,17 @@
     <title>overlay blue</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="421" height="278"></rect>
+        <rect id="path-1" x="0" y="0" width="421" height="327"></rect>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD-Copy" transform="translate(-1080.000000, 0.000000)">
-            <g id="overlay-blue" transform="translate(1019.000000, -1.000000)">
+            <g id="overlay-blue" transform="translate(1019.000000, -50.000000)">
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
                 <g id="Mask"></g>
                 <g mask="url(#mask-2)" fill="#1F2E5B">
-                    <g transform="translate(-100.000000, -1010.000000)">
+                    <g transform="translate(-100.000000, -961.000000)">
                         <circle id="Oval" opacity="0.699999988" cx="601.5" cy="601.5" r="601.5"></circle>
                         <circle id="Oval-Copy" opacity="0.800000012" cx="671.5" cy="686.5" r="601.5"></circle>
                     </g>
