@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="eng">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Auto Eagle</title>
+    <title>Parallax demo</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -52,10 +52,13 @@
             </div>
         </div>
     
-        <section data-depth=".2" class="col-md-6 col-md-offset-1 download-section">
+        <section data-depth=".2" class="col-md-6 col-md-offset-1 banner__content">
             <h1 class="banner-heading">
                 Full service 360° degree brand building, media and film agency.
             </h1>
+            <div>
+                <a class="button-ghost">Contact Us</a>
+            </div>
         </section>
     </main>
 
@@ -68,12 +71,16 @@
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/1.9.2/jarallax-element.min.js"></script>
     <script>
         var scene = document.getElementById('scene');
         var parallaxInstance = new Parallax(scene);
         var scene = document.getElementById('scen');
         var parallaxInstance = new Parallax(scen);
         parallaxInstance.friction(0.3, 1);
+        jarallax(document.querySelectorAll('.jarallax'), {
+            speed: 0.2
+        });
     </script>
 
     <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
