@@ -117,4 +117,27 @@
       }
     }
   }
+
+  &__heading {
+    position: relative;
+    font-size: 85px;
+    color: @blue;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: -100px;
+      transform: rotate(30deg);
+      left: 20%;
+      width: 4px;
+      height: 400px;
+      background-color: @yellow;
+    }
+
+    span {
+      position: relative;
+    }
+  }
 }
