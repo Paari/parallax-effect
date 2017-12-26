@@ -49,6 +49,15 @@
     </section>
 
     <!-- 
+      main heading
+     -->
+    <section class="portfolio__item">
+      <h1 class="portfolio__heading">
+        <span>Some of <br> our work...</span>
+      </h1>
+    </section>
+
+    <!-- 
       Portfolio list
      -->
     <section class="portfolio__item">
@@ -210,7 +219,15 @@
       distance: '30%',
       duration: 1000,
       scale: 1,
-      delay: 300,
+      delay: 100,
+    });
+    sr.reveal('.portfolio__heading', {
+      reset: true,
+      origin: 'right',
+      distance: '200px',
+      duration: 1200,
+      scale: 1,
+      opacity: .7,
     })
   </script>
 
