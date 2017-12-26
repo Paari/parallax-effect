@@ -1,5 +1,9 @@
-@viewport__mobile: 767px;
+@import './variables';
 
+body {
+  font-size: 15px;
+  font-weight: 400;
+}
 h1,
 h2,
 h3,
@@ -7,6 +11,10 @@ h4,
 h5,
 h6 {
   font-family: 'Quattrocento', serif;
+}
+
+.banner__content {
+  z-index: 40;
 }
 
 .banner-heading {
@@ -98,3 +106,6 @@ Main banner
     -webkit-transform: rotate(359deg);
   }
 }
+
+@import './components/button';
+@import './container/portfolio';
